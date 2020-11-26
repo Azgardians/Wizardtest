@@ -26,8 +26,11 @@ body {
 .btn-success{
     border-radius: 50px;
 }
-.navbar-nav .active  a {
-    color: #4caf50;
+.navbar-nav > .active  a {
+    color: #4caf50;    
+}
+.nav-item > a:hover {
+    color:#4caf50;
 }
 
 .hero{
